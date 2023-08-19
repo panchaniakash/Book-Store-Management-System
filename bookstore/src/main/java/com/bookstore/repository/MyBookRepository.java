@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 import com.bookstore.entities.MyBookList;
 
 @Repository
-public interface MyBookRepository extends CrudRepository<MyBookList, Integer> {
+public interface MyBookRepository extends JpaRepository<MyBookList, Integer> {
 
 }
